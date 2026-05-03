@@ -23,7 +23,7 @@ jobs:
           pip install pandas numpy
 
       - name: Run report generator
-        run: python report_0409701.py
+        run: python code.py
 
       - name: Upload report CSV
         uses: actions/upload-artifact@v4
